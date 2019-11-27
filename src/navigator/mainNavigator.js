@@ -13,6 +13,7 @@ import {EmailAuthNavigator} from '../features/EmailAuth/navigator';
 import { CameraNavigator } from "../features/UserCamera/navigator";
 
 //@BlueprintImportInsertion
+import { AddItemBlueprintNavigator } from '../features/AddItemBlueprint/navigator';
 
 /**
  * new navigators can be imported here
@@ -54,6 +55,7 @@ const AppNavigator = {
     
 
     //@BlueprintNavigationInsertion
+AddItemBlueprint: { screen: AddItemBlueprintNavigator },
 
     /** new navigators can be added here */
 };
